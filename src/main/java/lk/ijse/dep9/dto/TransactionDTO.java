@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class WithdrawDTO implements Serializable {
+public class TransactionDTO implements Serializable {
     private String type;
     private String account;
     private BigDecimal amount;
